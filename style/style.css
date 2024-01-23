@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+html{
+	background-color: #000;
+}
+main{
+  width: 90%;
+  height:90%;
+  margin: auto;
+  background-color: #201D2E;
+}
+/* start navegation style */
+nav {
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 90%;
+  height: 90px;
+  overflow: hidden;
+  margin: auto;
+}
+nav h1,img{
+  width: 70;
+  height: 40px;
+  float: left;
+  justify-self: space-between;
+  margin: 20px;
+}
+nav img{
+  margin-right: 0;
+}
+nav ul li{
+  margin-right: 35px;
+}
+#bar{
+  float: right;
+  margin: 25px;
+}
+a{
+  text-decoration: none;
+  padding: 7px;
+}
+a:hover:not(button a,.box a){
+  background-color: #01A3F1;
+}
+/* end navegation style */
+
+/* start first section style */
+.first {
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.welcome{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+}
+.welcome h1{
+  font-size: 55px;
+}
+button{
+  width: 174px;
+  height: 49px;
+  padding: 12px, 62px, 12px, 62px;
+  border-radius: 90px;
+  gap: 10px;
+  overflow: hidden;
+  background-color: #01A3F1;
+}
+.footer{
+  width: 100%;
+  height: 40vh;
+  padding: 87px, 85px;
+  gap: 100px;
+  overflow: hidden;
+  background-color: #181621;
+}
+.box{
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  padding: 0.8vw;
+  margin-top: 47.5px;
+  margin-bottom: 47.5px;
+  gap: 16px;
+}
+.footer .bi{
+  font-size: 55px;
+  padding: 5px;
+  color: #01A3F1;
+}
+.footer h1{
+  margin: 10px;
+}
+/* end first section style */
+
+ /* start second section style */
+ .second:not(.box-2){
+  color: #01A3F1;
+  text-align: center;
+  height: 100vh;
+  line-height: 38.73px;
+}
+.second .welcome{
+  height: 70vh;
+}
+.second a,p{
+  padding: 20px;
+  margin: 20px;
+}
+.second h1,a,p{
+  padding: 10px;
+  margin: 10px;
+}
+.second .welcome .box-2 h1{
+  display: inline;
+  font-size: 25px;
+  margin: 0;
+  
+}
+.second .welcome .box-2{
+  width: 31%;
+  min-height: 300px;
+  height: auto;
+  text-align: center;
+  float:left;
+  text-align: left;
+  margin-left: 30px;
+}
+/* .second .welcome .box-2 h1,.bi,p{
+  float: left;
+} */
+.second .bi{
+  display: inline;
+  font-size: 45px;
+  color: #01A3F1;
+}
+.box-2 h1{
+  width: 70;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.second .footer{
+  height: 30vh;
+}
+.second .footer h1{
+  font-size: 55px;
+  margin-top: 60px;
+}
+ /* end second section style */
